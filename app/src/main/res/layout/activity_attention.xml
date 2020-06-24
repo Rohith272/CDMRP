@@ -48,7 +48,17 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="3" />
+                android:layout_weight="3"
+                app:cardBackgroundColor="#008dc9"
+                app:contentPadding="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#008dc9"
+                    app:srcCompat="@drawable/attention" />
+            </androidx.cardview.widget.CardView>
         </LinearLayout>
 
         <LinearLayout
@@ -68,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/homebutton"
                 android:text="@string/at1" />
         </LinearLayout>
 
@@ -89,7 +99,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/homebutton"
                 android:text="@string/at2" />
         </LinearLayout>
 
@@ -110,7 +120,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/homebutton"
                 android:text="@string/at3" />
         </LinearLayout>
 
@@ -131,7 +141,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/homebutton"
                 android:text="@string/at4" />
         </LinearLayout>
 
@@ -152,7 +162,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/homebutton"
                 android:text="@string/at5" />
         </LinearLayout>
 
@@ -173,7 +183,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/homebutton"
                 android:text="@string/at6" />
         </LinearLayout>
 
@@ -194,7 +204,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/homebutton"
                 android:text="@string/at7" />
         </LinearLayout>
 
@@ -215,7 +225,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/homebutton"
                 android:text="@string/at8" />
         </LinearLayout>
 
@@ -237,7 +247,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/homebutton"
                 android:text="@string/at9" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>

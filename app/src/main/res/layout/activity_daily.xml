@@ -46,7 +46,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
-                app:cardBackgroundColor="#FFFFFF" />
+                app:cardBackgroundColor="#008dc9"
+                app:contentPadding="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/dailyr" />
+            </androidx.cardview.widget.CardView>
         </LinearLayout>
 
         <LinearLayout
@@ -66,7 +74,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/homebutton"
                 android:text="@string/dl1" />
         </LinearLayout>
 
@@ -87,7 +95,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/homebutton"
                 android:text="@string/dl2" />
         </LinearLayout>
 
@@ -108,7 +116,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/homebutton"
                 android:text="@string/dl3" />
         </LinearLayout>
 
@@ -129,7 +137,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/homebutton"
+                android:paddingLeft="5dp"
+                android:paddingEnd="5dp"
                 android:text="@string/d4" />
         </LinearLayout>
 
@@ -150,7 +160,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/homebutton"
                 android:text="@string/dl5" />
         </LinearLayout>
 
@@ -172,7 +182,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/homebutton"
                 android:text="@string/dl6" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
