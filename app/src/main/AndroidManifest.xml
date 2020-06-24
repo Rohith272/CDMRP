@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Staff"></activity>
+        <activity android:name=".learnning" />
+        <activity android:name=".attention" />
+        <activity android:name=".occupational" />
+        <activity android:name=".physiotherapy" />
+        <activity android:name=".speechtherapy" />
+        <activity android:name=".behaviour" />
+        <activity android:name=".daily" />
+        <activity android:name=".covidchapter1" />
+        <activity android:name=".covid19" />
+        <activity android:name=".homeprogram" />
+        <activity android:name=".orp" />
+        <activity android:name=".iarp" />
+        <activity android:name=".rtp" />
+        <activity android:name=".uctp" />
+        <activity android:name=".iatp" />
+        <activity android:name=".lifeskilltraining" />
+        <activity android:name=".cbld" />
+        <activity android:name=".ragam" />
+        <activity android:name=".aquafit" />
+        <activity android:name=".mfp" />
+        <activity android:name=".ddp" />
+        <activity android:name=".lbvrp" />
+        <activity android:name=".sa" />
+        <activity android:name=".intrdctn" />
+        <activity android:name=".bpp" />
+        <activity android:name=".specialunit" />
+        <activity android:name=".servicespage" />
+        <activity android:name=".introabtcen" />
+        <activity android:name=".online" />
+        <activity android:name=".shortterm" />
+        <activity android:name=".pgd" />
+        <activity android:name=".disability" />
+        <activity android:name=".research" />
+        <activity android:name=".training" />
+        <activity android:name=".flagship" />
+        <activity android:name=".pstu" />
+        <activity android:name=".admc" />
+        <activity android:name=".patientportal" />
+        <activity android:name=".follow" />
+        <activity android:name=".Contact" />
+        <activity android:name=".Gallery" />
+        <activity android:name=".Resource" />
+        <activity android:name=".Clinic" />
+        <activity android:name=".ABOUT" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

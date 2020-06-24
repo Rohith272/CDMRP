@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home"/>
+        <item
+            android:id="@+id/nav_abv"
+            android:title="ABOUT US"
+            android:icon="@drawable/about"/>
+
+        <item
+            android:id="@+id/nav_ocl"
+            android:title="Our Community Clinics"
+            android:icon="@drawable/clinic"/>
+        <item
+            android:id="@+id/nav_rsc"
+            android:title="Our Resource"
+            android:icon="@drawable/resource"/>
+        <item
+            android:id="@+id/nav_staff"
+            android:title="Our Staff"
+            android:icon="@drawable/staff"/>
+        <item
+            android:id="@+id/nav_gal"
+            android:title="Our Gallery"
+            android:icon="@drawable/gallery"/>
+    </group>
+    <item android:title="Reach Us">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_cntct"
+                    android:title="Contact Us"
+                    android:icon="@drawable/contact"/>
+                <item
+                    android:id="@+id/nav_flw"
+                    android:title="Follow Us"
+                    android:icon="@drawable/follow"/>
+            </group>
+        </menu>
+    </item>
+</menu>
