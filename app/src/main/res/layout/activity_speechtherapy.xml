@@ -15,7 +15,9 @@
             android:id="@+id/linearLayout25"
             android:layout_width="match_parent"
             android:layout_height="100dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
             android:orientation="horizontal"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -46,14 +48,23 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="3" />
+                android:layout_weight="3"
+                app:cardBackgroundColor="#008dc9"
+                app:contentPadding="5dp">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/speech" />
+            </androidx.cardview.widget.CardView>
         </LinearLayout>
 
 
         <LinearLayout
             android:id="@+id/linearLayout26"
             android:layout_width="match_parent"
-            android:layout_height="90dp"
+            android:layout_height="80dp"
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="20dp"
@@ -67,19 +78,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/homebutton"
                 android:text="@string/sp1" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/linearLayout27"
             android:layout_width="match_parent"
-            android:layout_height="90dp"
+            android:layout_height="80dp"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="20dp"
             android:orientation="horizontal"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout26">
 
@@ -88,14 +100,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/homebutton"
                 android:text="@string/sp2" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/linearLayout28"
             android:layout_width="match_parent"
-            android:layout_height="90dp"
+            android:layout_height="80dp"
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="20dp"
@@ -109,14 +121,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/homebutton"
                 android:text="@string/sp3" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/linearLayout29"
             android:layout_width="match_parent"
-            android:layout_height="90dp"
+            android:layout_height="80dp"
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="20dp"
@@ -130,14 +142,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/homebutton"
                 android:text="@string/sp4" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/linearLayout30"
             android:layout_width="match_parent"
-            android:layout_height="90dp"
+            android:layout_height="80dp"
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="20dp"
@@ -151,13 +163,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/homebutton"
                 android:text="@string/sp5" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="90dp"
+            android:layout_height="80dp"
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="20dp"
@@ -173,7 +185,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/homebutton"
                 android:text="@string/sp6" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
