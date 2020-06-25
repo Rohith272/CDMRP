@@ -11,7 +11,7 @@
         android:id="@+id/linearLayout7"
         android:layout_width="match_parent"
         android:layout_height="146dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="50dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/introlayout"
         app:layout_constraintEnd_toEndOf="@id/introlayout"
@@ -21,27 +21,27 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:cardBackgroundColor="#008dc9"/>
+            app:cardBackgroundColor="#008dc9" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/introlayout"
         android:layout_width="0dp"
         android:layout_height="80dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="232dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintStart_toStartOf="@id/linearLayout7"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7">
 
         <Button
             android:id="@+id/intro"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="@drawable/homebutton"
             android:text="@string/introduction_about_center" />
 
     </LinearLayout>
@@ -50,20 +50,19 @@
         android:id="@+id/serviceslayout"
         android:layout_width="0dp"
         android:layout_height="80dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="332dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@id/introlayout">
 
         <Button
             android:id="@+id/services"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="@drawable/homebutton"
             android:text="@string/services" />
     </LinearLayout>
 
@@ -71,20 +70,19 @@
         android:id="@+id/unitslayout"
         android:layout_width="0dp"
         android:layout_height="80dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="432dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@id/serviceslayout">
 
         <Button
             android:id="@+id/units"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="@drawable/homebutton"
             android:text="@string/special_units" />
     </LinearLayout>
 
@@ -92,22 +90,19 @@
         android:id="@+id/practicesslayout"
         android:layout_width="0dp"
         android:layout_height="80dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="532dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toBottomOf="@id/unitslayout">
 
         <Button
             android:id="@+id/practices"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="@drawable/homebutton"
             android:text="@string/best_practices_programs" />
     </LinearLayout>
 

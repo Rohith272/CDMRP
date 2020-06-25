@@ -36,7 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="@drawable/homebutton"
             android:text="@string/introduction_about_center_2" />
     </LinearLayout>
 
@@ -45,21 +45,21 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        android:background="#FFFFFF"
+        android:background="#008dc9"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/linearLayout8">
+        app:layout_constraintTop_toBottomOf="@id/introdlayout">
 
         <Button
             android:id="@+id/button9"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="@drawable/homebutton"
             android:text="@string/service_availability" />
     </LinearLayout>
 
@@ -68,20 +68,22 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout8">
+        app:layout_constraintTop_toBottomOf="@id/availabilitylayout">
 
         <Button
             android:id="@+id/button10"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="@drawable/homebutton"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
             android:text="@string/livelihood_based_vocation_rehabilition_program" />
     </LinearLayout>
 
