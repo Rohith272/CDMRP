@@ -79,6 +79,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/dashboard"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
                         android:text="flagship programmes" />
                 </androidx.cardview.widget.CardView>
 
@@ -98,6 +100,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/dashboard"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
                         android:text="training program" />
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
@@ -129,6 +133,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/dashboard"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
                         android:text="advanced disability management center" />
                 </androidx.cardview.widget.CardView>
 
@@ -148,6 +154,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/dashboard"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
                         android:text="prevocational skill training unit" />
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
@@ -183,6 +191,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/dashboard"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
                         android:text="research programme" />
                 </androidx.cardview.widget.CardView>
 
@@ -202,6 +212,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/dashboard"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
                         android:text="disability management studies" />
                 </androidx.cardview.widget.CardView>
 
