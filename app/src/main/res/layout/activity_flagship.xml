@@ -22,27 +22,27 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
-    <LinearLayout
-        android:id="@+id/community"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="20dp"
-        android:background="#FFFFFF"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout9">
-
-        <Button
-            android:id="@+id/button11"
+        <LinearLayout
+            android:id="@+id/community"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#FFFFFF"
-            android:text="@string/community_based_early_identification_of_developmental_disability_program" />
-    </LinearLayout>
+            android:layout_height="80dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="#008dc9"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout9">
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/homebutton"
+                android:text="@string/community_based_early_identification_of_developmental_disability_program" />
+        </LinearLayout>
 
     <LinearLayout
         android:id="@+id/martial"
@@ -61,7 +61,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="@drawable/homebutton"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
             android:text="@string/martial_fit_programme_integrated_martial_arrt_programme" />
     </LinearLayout>
 
@@ -82,7 +84,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="@drawable/homebutton"
             android:text="@string/aqua_fit_programme" />
     </LinearLayout>
 
@@ -103,7 +105,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="@drawable/homebutton"
             android:text="@string/ragamrtham" />
     </LinearLayout>
 
@@ -124,7 +126,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="@drawable/homebutton"
             android:text="@string/community_based_learning_disability_management_clinics" />
     </LinearLayout>
 
@@ -146,7 +148,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/homebutton"
                 android:text="@string/life_skill_training_programe_for_adolescence_girls_with_intellectual_disability" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>

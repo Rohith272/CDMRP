@@ -37,7 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="@drawable/homebutton"
             android:text="@string/intro_about_training_programe" />
     </LinearLayout>
 
@@ -58,7 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="@drawable/homebutton"
             android:text="@string/up_coming_training_programe" />
     </LinearLayout>
 
@@ -79,6 +79,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="@drawable/homebutton"
             android:text="@string/report_of_training_programe" />
     </LinearLayout></androidx.constraintlayout.widget.ConstraintLayout>

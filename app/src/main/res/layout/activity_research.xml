@@ -14,15 +14,7 @@
         android:layout_marginTop="50dp"
         android:orientation="horizontal"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="1dp">
-
-        <ImageView
-            android:id="@+id/imageView15"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-    </LinearLayout>
+        tools:layout_editor_absoluteX="1dp"/>
 
     <LinearLayout
         android:id="@+id/abtresearch"
@@ -31,7 +23,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="20dp"
-        android:background="#FFFFFF"
+        android:background="#008dc9"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="@drawable/homebutton"
             android:text="@string/introduction_about_research_program" />
     </LinearLayout>
 
@@ -62,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="@drawable/homebutton"
             android:text="@string/ongoing_research_program" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
