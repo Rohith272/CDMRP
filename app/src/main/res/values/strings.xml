@@ -91,15 +91,20 @@
     <string name="l3">പഠന വൈകല്യം പരിഹാരമാർഗ്ഗങ്ങളും പരിശീലനവും അദ്ധ്യായം-1, Series-2</string>
     <string name="l4">പഠന വൈകല്യം പരിഹാരമാർഗ്ഗങ്ങളും പരിശീലനവും അദ്ധ്യായം-1, Series-3</string>
     <string name="l5">പഠന വൈകല്യം പരിഹാരമാർഗ്ഗങ്ങളും പരിശീലനവും അദ്ധ്യായം-1, Series-4</string>
-    <string name="office_assistant_cum_computer_operator_and_clinical_attendent">office assistant cum computer operator and clinical attendent</string>
+    <string name="office_assistant_cum_computer_operator_and_clinical_attendent">office assistant cum computer operator and clinical attendant</string>
     <string name="special_educators">special educators</string>
     <string name="speech_language_pathologist_and_audiolist">speech language pathologist and audiolist</string>
     <string name="physiotherapist">physiotherapist</string>
     <string name="occupational_therapist">occupational therapist</string>
-    <string name="case_coordinators_and_liaison_officres">case coordinators and liaison officres</string>
+    <string name="case_coordinators_and_liaison_officres">case coordinators and liaison officers</string>
     <string name="developmental_psychologists">Developmental psychologists</string>
     <string name="disability_management_officers">disability management officers</string>
     <string name="directors">DIRECTORS</string>
     <string name="our_staff">Our Staff</string>
     <string name="prof_dr_k_manikandan">Prof.(Dr).K.Manikandan</string>
+    <string name="clinical_psychologist">(Clinical Psychologist)</string>
+    <string name="beena_george">Beena George</string>
+    <string name="m_phil_clinical_psycology">(M.Phil.Clinical Psychology)</string>
+    <string name="dr_noufal_t_h">Dr.Noufal T H</string>
+    <string name="m_phil_phd_clinical_psycology">(M.Phil,Phd,Clinical Psychology)</string>
 </resources>

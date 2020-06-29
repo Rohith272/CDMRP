@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".directors"></activity>
+        <activity android:name=".dmo"></activity>
+        <activity android:name=".directors" />
         <activity android:name=".Staff" />
         <activity android:name=".learnning" />
         <activity android:name=".attention" />
@@ -18,7 +19,6 @@
         <activity android:name=".speechtherapy" />
         <activity android:name=".behaviour" />
         <activity android:name=".daily" />
-        <activity android:name=".covidchapter1" />
         <activity android:name=".covid19" />
         <activity android:name=".homeprogram" />
         <activity android:name=".orp" />

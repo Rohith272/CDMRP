@@ -9,6 +9,7 @@ import android.widget.Button;
 
 public class Staff extends AppCompatActivity {
     private Button button90;
+    private Button button91;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,9 +22,20 @@ public class Staff extends AppCompatActivity {
                 opendirectors();
             }
         });
+        button91 = findViewById(R.id.button91);
+        button91.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                opendmo();
+            }
+        });
+    }
+    public void opendmo() {
+        Intent intent52 = new Intent(this,dmo.class);
+        startActivity(intent52);
     }
     public void opendirectors() {
-        Intent intent90 = new Intent(this,directors.class);
-        startActivity(intent90);
+        Intent intent51 = new Intent(this,directors.class);
+        startActivity(intent51);
     }
 }
