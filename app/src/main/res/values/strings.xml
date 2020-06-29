@@ -37,7 +37,7 @@
     <string name="our_publications">our publications</string>
     <string name="raheemudheen_p_k">RAHEEMUDHEEN .P.K</string>
     <string name="joint_director_clinical_psychologist">Joint Director(Clinical Psychologist)</string>
-    <string name="muhammed_fawz">MUHAMMED FAWZ</string>
+    <string name="muhammed_fawz">MUHAMMED FAVAZ</string>
     <string name="case_coordinator">Case Coordinator</string>
     <string name="fathima_kareem">FATHIMA KAREEM</string>
     <string name="disability_management_officer">Disability Management Officer</string>
@@ -97,7 +97,7 @@
     <string name="physiotherapist">physiotherapist</string>
     <string name="occupational_therapist">occupational therapist</string>
     <string name="case_coordinators_and_liaison_officres">case coordinators and liaison officers</string>
-    <string name="developmental_psychologists">Developmental psychologists</string>
+    <string name="developmental_psychologists">Developmental psychotherapists</string>
     <string name="disability_management_officers">disability management officers</string>
     <string name="directors">DIRECTORS</string>
     <string name="our_staff">Our Staff</string>
@@ -107,4 +107,16 @@
     <string name="m_phil_clinical_psycology">(M.Phil.Clinical Psychology)</string>
     <string name="dr_noufal_t_h">Dr.Noufal T H</string>
     <string name="m_phil_phd_clinical_psycology">(M.Phil,Phd,Clinical Psychology)</string>
+    <string name="developmental_psychotherapists">DEVELOPMENTAL PSYCHOTHERAPISTS</string>
+    <string name="clinical_psychologist1">(clinical psychologist)</string>
+    <string name="sara_renni">sara renni</string>
+    <string name="m_phil_clinical_psychology">(M.Phil. Clinical Psychology)</string>
+    <string name="manju_t_k">Manju T.K</string>
+    <string name="athira_nakulan">Athira Nakulan</string>
+    <string name="chandana">Chandana</string>
+    <string name="muhammed_shareef_v_p">Muhammed Shareef V.P</string>
+    <string name="bot_mot"><![CDATA[(BOT & MOT)]]></string>
+    <string name="surabhi_k">Surabhi K</string>
+    <string name="ajo_sunny">Ajo Sunny</string>
+    <string name="bot">(BOT)</string>
 </resources>
