@@ -13,6 +13,9 @@ public class Staff extends AppCompatActivity {
     private Button button92;
     private Button button93;
     private Button button94;
+    private Button button95;
+    private Button button96;
+    private Button button97;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +56,39 @@ public class Staff extends AppCompatActivity {
                 openot();
             }
         });
+        button95 = findViewById(R.id.button95);
+        button95.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openphysio();
+            }
+        });
+        button96 = findViewById(R.id.button96);
+        button96.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openspeech();
+            }
+        });
+        button97 = findViewById(R.id.button97);
+        button97.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openspecialedu();
+            }
+        });
+    }
+    public void openspecialedu() {
+        Intent intent58 = new Intent(this,specialedu.class);
+        startActivity(intent58);
+    }
+    public void openspeech() {
+        Intent intent57 = new Intent(this,speech.class);
+        startActivity(intent57);
+    }
+    public void openphysio() {
+        Intent intent56 = new Intent(this,physio.class);
+        startActivity(intent56);
     }
     public void openot() {
         Intent intent55 = new Intent(this,ot.class);
