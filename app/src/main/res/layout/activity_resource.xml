@@ -33,7 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="@drawable/team"
             android:text="@string/home_programe_videos" />
     </LinearLayout>
 
@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="@drawable/team"
             android:text="@string/therapy_guidelines_for_parents" />
     </LinearLayout>
 
@@ -75,7 +75,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="@drawable/team"
             android:text="@string/worksheet" />
     </LinearLayout>
 
@@ -96,7 +96,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="@drawable/team"
             android:text="@string/our_publications" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

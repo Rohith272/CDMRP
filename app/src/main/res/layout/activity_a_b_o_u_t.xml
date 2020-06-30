@@ -47,7 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/team"
                 android:text="@string/goal_of_the_cdmrp" />
         </LinearLayout>
 
@@ -68,7 +68,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/team"
                 android:text="@string/objectives_of_project" />
         </LinearLayout>
 
@@ -89,7 +89,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/team"
                 android:text="@string/vision_and_mission" />
         </LinearLayout>
 
@@ -110,7 +110,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/team"
                 android:text="@string/values" />
         </LinearLayout>
 
@@ -131,7 +131,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/team"
                 android:text="@string/our_activities" />
         </LinearLayout>
 
@@ -152,7 +152,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/team"
                 android:text="@string/target_group_stake_holders" />
         </LinearLayout>
 
@@ -173,7 +173,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/team"
                 android:text="@string/organization_structure" />
         </LinearLayout>
 
@@ -196,7 +196,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@drawable/team"
                 android:text="@string/our_centers" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>

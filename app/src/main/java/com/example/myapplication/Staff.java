@@ -16,7 +16,7 @@ public class Staff extends AppCompatActivity {
     private Button button95;
     private Button button96;
     private Button button97;
-
+    private Button button98;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -77,6 +77,17 @@ public class Staff extends AppCompatActivity {
                 openspecialedu();
             }
         });
+        button98 = findViewById(R.id.button98);
+        button98.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openofficeassi();
+            }
+        });
+    }
+    public void openofficeassi() {
+        Intent intent59 = new Intent(this,officeassi.class);
+        startActivity(intent59);
     }
     public void openspecialedu() {
         Intent intent58 = new Intent(this,specialedu.class);
