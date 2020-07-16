@@ -144,4 +144,13 @@
     <string name="kunjumol_k_j">Kunjumol K.J</string>
     <string name="treesa_mary_joy">Treesa Mary Joy</string>
     <string name="binduja_v_b">Binduja V.B</string>
+    <string name="patient_login">Patient Login</string>
+    <string name="moblie_number">Moblie Number</string>
+    <string name="date_of_birth_as_per_registration">Date of Birth (As per Registration)</string>
+    <string name="new_user_please_register">New User?Please Register</string>
+    <string name="community_clinics">Community Clinics</string>
+    <string name="malappuram">Malappuram</string>
+    <string name="anakkayam">Anakkayam</string>
+    <string name="karuvarakund">karuvarakund</string>
+    <string name="thanalur">Thanalur</string>
 </resources>
