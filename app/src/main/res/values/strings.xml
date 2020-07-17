@@ -153,4 +153,15 @@
     <string name="anakkayam">Anakkayam</string>
     <string name="karuvarakund">karuvarakund</string>
     <string name="thanalur">Thanalur</string>
+    <string name="select_your_district">Select Your District</string>
+    <string name="m1">malappuram</string>
+    <string name="kozhikode">KOZHIKODE</string>
+    <string name="kannur">KANNUR</string>
+    <string name="thiruvagoor">thiruvagoor</string>
+    <string name="payyanur">payyanur</string>
+    <string name="pariyaram">pariyaram</string>
+    <string name="mattanur">mattanur</string>
+    <string name="ernholi">ernholi</string>
+    <string name="azhikkode">azhikkode</string>
+    <string name="anthoor">anthoor</string>
 </resources>

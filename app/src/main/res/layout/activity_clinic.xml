@@ -32,7 +32,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:fontFamily="@font/holtwood_one_sc"
-                    android:text="Select Your District"
+                    android:text="@string/select_your_district"
                     android:textColor="#FFFFFF"
                     android:textSize="18sp" />
             </RelativeLayout>
@@ -55,7 +55,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/team"
-                android:text="malappuram" />
+                android:text="@string/m1" />
         </LinearLayout>
 
         <LinearLayout
@@ -76,7 +76,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/team"
-                android:text="KOZHIKODE" />
+                android:text="@string/kozhikode" />
         </LinearLayout>
 
         <LinearLayout
@@ -98,7 +98,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/team"
-                android:text="KANNUR" />
+                android:text="@string/kannur" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
