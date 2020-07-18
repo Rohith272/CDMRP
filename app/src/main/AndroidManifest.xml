@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".kannur"></activity>
+        <activity android:name=".payyanur"></activity>
+        <activity android:name=".pariyaram" />
+        <activity android:name=".mattanur" />
+        <activity android:name=".ernholi" />
+        <activity android:name=".azhikkode" />
+        <activity android:name=".anthoor" />
+        <activity android:name=".kannur" />
         <activity android:name=".thiruvagoor" />
         <activity android:name=".kozhikode" />
         <activity android:name=".thanalur" />
