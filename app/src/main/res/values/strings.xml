@@ -186,4 +186,6 @@
     <string name="disability_management_officer1">(Disability Management Officer)</string>
     <string name="occupational_therapist1">(Occupational Therapist)</string>
     <string name="physiotherapist1">(Physiotherapist)</string>
+    <string name="speech_language_pathologist1">(Speech Language Pathologist)</string>
+    <string name="tuesday_friday"><![CDATA[TUESDAY & FRIDAY]]></string>
 </resources>

@@ -118,7 +118,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:fontFamily="sans-serif-black"
-                    android:text="@string/saturday_and_monday"
+                    android:text="@string/thursday_friday"
                     android:textAllCaps="true"
                     android:textColor="#FFFFFF" />
             </RelativeLayout>

@@ -37,7 +37,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:fontFamily="sans-serif-black"
-                        android:text="@string/occupational_therapist"
+                        android:text="@string/physiotherapist"
                         android:textAllCaps="true"
                         android:textColor="#FFFFFF"
                         android:textSize="20sp" />
