@@ -192,4 +192,27 @@
     <string name="shamila">shamila</string>
     <string name="friday">friday</string>
     <string name="bring_me_to_center">bring me to clinic</string>
+    <string name="submit">SUBMIT</string>
+    <string name="pre_vocational_skill_training">Pre-Vocational skill training</string>
+    <string name="speech_education">Speech education</string>
+    <string name="occupational_therapy3">Occupational therapy</string>
+    <string name="speech_therapy">Speech therapy</string>
+    <string name="physiotherapy">Physiotherapy</string>
+    <string name="if_yes_which_one">If yes, Which one(ഉണ്ടെങ്കിൽ ഏതെല്ലാം? )</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="currently_receiving_therapy">Currently Receiving Therapy?(നിലവിൽ തെറാപ്പി ലഭിക്കുന്നുണ്ടോ?)</string>
+    <string name="diagnosis_condition_as_per_medical_record">Diagnosis/Condition(As per Medical Record):(നിലവിലെ രോഗാവസ്ഥ)</string>
+    <string name="whatsapp_no">WhatsApp No</string>
+    <string name="mobile_number">Mobile Number(മൊബൈൽ നമ്പർ )</string>
+    <string name="district">District(ജില്ല)</string>
+    <string name="place">Place(സ്ഥലം)</string>
+    <string name="name_of_parent">Name of Parent(രക്ഷിതാവിന്റെ പേര്)</string>
+    <string name="age">Age(വയസ്)</string>
+    <string name="date_of_birth_dd_mm_yyyy">Date of Birth(ജനനത്തിയതി )</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="gender">Gender(ലിംഗം)</string>
+    <string name="name">Name(പേര്)</string>
+    <string name="registration_portal">registration portal</string>
 </resources>
