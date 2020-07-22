@@ -56,7 +56,7 @@
                 android:layout_height="match_parent">
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName"
+                    android:id="@+id/Name"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="10"
@@ -99,40 +99,28 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1">
 
-                <LinearLayout
+                <RadioGroup
+                    android:id="@+id/Gender"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+
                     android:orientation="horizontal">
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="2">
+                    <RadioButton
+                        android:id="@+id/radio_male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/male"
+                        android:textColor="#FFFFFF" />
 
-                        <RadioButton
-                            android:id="@+id/radioButton2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/female"
-                            android:textColor="#FFFFFF"
-                            android:textSize="19sp" />
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1">
-
-                        <RadioButton
-                            android:id="@+id/radioButton"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/male"
-                            android:textColor="#FFFFFF"
-                            android:textSize="19sp" />
-                    </RelativeLayout>
-                </LinearLayout>
-
+                    <RadioButton
+                        android:id="@+id/radio_female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/female"
+                        android:textColor="#FFFFFF" />
+                </RadioGroup>
             </RelativeLayout>
 
         </LinearLayout>
@@ -150,7 +138,7 @@
             app:layout_constraintTop_toBottomOf="@+id/linearLayout135">
 
             <EditText
-                android:id="@+id/editTextDate"
+                android:id="@+id/DOB"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:ems="10"
@@ -172,7 +160,7 @@
             app:layout_constraintTop_toBottomOf="@+id/linearLayout136">
 
             <EditText
-                android:id="@+id/editTextNumber"
+                android:id="@+id/Age"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:ems="10"
@@ -195,7 +183,7 @@
             app:layout_constraintTop_toBottomOf="@+id/linearLayout137">
 
             <EditText
-                android:id="@+id/editTextTextPersonName2"
+                android:id="@+id/NOP"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:ems="10"
@@ -217,7 +205,7 @@
             app:layout_constraintTop_toBottomOf="@+id/linearLayout138">
 
             <EditText
-                android:id="@+id/editTextTextPersonName3"
+                android:id="@+id/Place"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:ems="10"
@@ -239,7 +227,7 @@
             app:layout_constraintTop_toBottomOf="@+id/linearLayout139">
 
             <EditText
-                android:id="@+id/editTextTextPersonName4"
+                android:id="@+id/Dist"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:ems="10"
@@ -261,7 +249,7 @@
             app:layout_constraintTop_toBottomOf="@+id/linearLayout140">
 
             <EditText
-                android:id="@+id/editTextPhone"
+                android:id="@+id/MobNo"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:ems="10"
@@ -283,7 +271,7 @@
             app:layout_constraintTop_toBottomOf="@+id/linearLayout141">
 
             <EditText
-                android:id="@+id/editTextPhone2"
+                android:id="@+id/WNo"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:ems="10"
@@ -305,7 +293,7 @@
             app:layout_constraintTop_toBottomOf="@+id/linearLayout142">
 
             <EditText
-                android:id="@+id/editTextTextMultiLine"
+                android:id="@+id/Condition"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:ems="100"
@@ -345,37 +333,30 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1">
 
-                <LinearLayout
+                <RadioGroup
+                    android:id="@+id/Therapy"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
                     android:orientation="horizontal">
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="2">
+                    <RadioButton
+                        android:id="@+id/radio_yes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/yes"
+                        android:textColor="#FFFFFF" />
 
-                        <RadioButton
-                            android:id="@+id/radioButton3"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/yes"
-                            android:textColor="#FFFFFF" />
-                    </RelativeLayout>
+                    <RadioButton
+                        android:id="@+id/radio_No"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/no"
+                        android:textColor="#FFFFFF" />
+                </RadioGroup>
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1">
-
-                        <RadioButton
-                            android:id="@+id/radioButton4"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/no"
-                            android:textColor="#FFFFFF" />
-                    </RelativeLayout>
-                </LinearLayout>
             </RelativeLayout>
         </LinearLayout>
 
@@ -422,7 +403,22 @@
                 android:layout_weight="1">
 
                 <CheckBox
-                    android:id="@+id/checkBox"
+                    android:id="@+id/CB1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ifyes"
+                    android:text="@string/psychology"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <CheckBox
+                    android:id="@+id/CB2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/physiotherapy"
@@ -435,7 +431,7 @@
                 android:layout_weight="1">
 
                 <CheckBox
-                    android:id="@+id/checkBox2"
+                    android:id="@+id/CB3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/speech_therapy"
@@ -448,7 +444,7 @@
                 android:layout_weight="1">
 
                 <CheckBox
-                    android:id="@+id/checkBox3"
+                    android:id="@+id/CB4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/occupational_therapy3"
@@ -461,7 +457,7 @@
                 android:layout_weight="1">
 
                 <CheckBox
-                    android:id="@+id/checkBox4"
+                    android:id="@+id/CB5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/speech_education"
@@ -474,7 +470,7 @@
                 android:layout_weight="1">
 
                 <CheckBox
-                    android:id="@+id/checkBox5"
+                    android:id="@+id/CB6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/pre_vocational_skill_training"
@@ -496,7 +492,7 @@
             app:layout_constraintTop_toBottomOf="@+id/linearLayout146">
 
             <Button
-                android:id="@+id/button124"
+                android:id="@+id/Reg"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/homebutton"
